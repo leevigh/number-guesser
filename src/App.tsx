@@ -67,7 +67,7 @@ function App() {
           <h1 className='text-2xl md:text-5xl py-4 text-white'>Number Guesser</h1>
 
           <div className='py-2'>
-            <p className='text-white'>Guess a number between 1 and 100. You have {maxAttempts}</p>
+            <p className='text-white'>Guess a number between 1 and 100. You have {maxAttempts} attempts.</p>
           </div>
         </div>
 
@@ -105,7 +105,7 @@ function App() {
           <p>{feedback}</p>
         </div>
 
-        <div className='absolute bottom-0 text-center'>
+        <div className='absolute bottom-0 text-center py-2'>
           <h3 className='text-white'>Attempts</h3>
           <p className='text-3xl text-white md:text-6xl'>{attempts}</p>
         </div>
